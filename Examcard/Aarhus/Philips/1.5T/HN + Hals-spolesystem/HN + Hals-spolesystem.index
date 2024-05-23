@@ -1,0 +1,83 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>18</_size>
+<_version>18</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[32]">
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-4">NY hoved-hals -051217</name>
+<type id="ref-5">Philips.PmsMR.ExamCards.ECDatabase.ExamCardFile</type>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-6">TEST T2-T1 TRA 3D 03032023</name>
+<type id="ref-7">Philips.PmsMR.ExamCards.ECDatabase.Folder</type>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-8">$42TEST$42 07-10-22 fra MR RT HN</name>
+<type href="#ref-7"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-9">Metal artefakt</name>
+<type href="#ref-7"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-10">$42TEST$42 T1 cor (fra MR RT HNfolder) 04-10-2022</name>
+<type href="#ref-7"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-11">NY hoved-hals -050216-s$46f$46</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-12">forsøgs DWI</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-13">Col$46 Cerv$46 metastaser</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-14">Jeppes</name>
+<type href="#ref-7"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-15">HN_medulla +iv 130921</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-16">cervical meningiom</name>
+<type href="#ref-7"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-17">FLAIR</name>
+<type href="#ref-7"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-18">T2W TSE 3D</name>
+<type href="#ref-7"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-19">T1 3D DIXON PHilips$46 MRRT TRA</name>
+<type href="#ref-7"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-20">cs5_T1w_3DTFE_mDX_150mm</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-21">NY T1 dixon cor 1703-2022</name>
+<type href="#ref-7"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-22">T2 3D hurtigere</name>
+<type href="#ref-7"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-23">cs_T1w_3DTFE_mDX_250mm</name>
+<type href="#ref-5"/>
+</item>
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,636 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ExamCard id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECModel/philips.pmsmr.examcards.ecmodel_cs">
+<name id="ref-8">cs_3D_ProstateVIEW_T2</name>
+<instrumentList href="#ref-9"/>
+<data href="#ref-10"/>
+<description href="#ref-11"/>
+<patientOrientation xsi:type="a4:PatientPosition" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Platform.ScannerContext/philips.pmsmr.platform.scannercontext.shared_cli">PatientPos_FFS</patientOrientation>
+<dockingMode xsi:type="a4:DockMode" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Platform.ScannerContext/philips.pmsmr.platform.scannercontext.shared_cli">DockingMode_Front</dockingMode>
+<anatomicRegion id="ref-12">SRT.T-9200B.Prostate</anatomicRegion>
+<anatomy id="ref-13">Pelvis</anatomy>
+<laterality id="ref-14">unpaired</laterality>
+<rfExcitationMode xsi:type="a5:RFExcitationRestriction" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Platform.ScannerContext/philips.pmsmr.platform.scannercontext.wrapper_cli">CircularPolarized</rfExcitationMode>
+<namedGeometries href="#ref-15"/>
+<heartRate>60</heartRate>
+<autoFillInHeartRate>false</autoFillInHeartRate>
+<mainSystemType xsi:type="a7:MainSysType" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Platform.Aswglo/philips.pmsmr.platform.aswglo_cli">AWASW_MST_WA15</mainSystemType>
+<configuration href="#ref-16"/>
+<version href="#ref-17"/>
+<alignOverlap>30</alignOverlap>
+<pushToWorkStation>false</pushToWorkStation>
+<paediatric>false</paediatric>
+<patientWeight>110</patientWeight>
+<selectedCoils href="#ref-18"/>
+</a1:ExamCard>
+<a1:ECInstrumentList id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECModel/philips.pmsmr.examcards.ecmodel_cs">
+<list href="#ref-19"/>
+</a1:ECInstrumentList>
+<a2:ExamCardData id="ref-10" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECModel/philips.pmsmr.examcards.ecmodel.datamodel_cs">
+<tableUsage id="ref-21">UseTable</tableUsage>
+<processingStepManagerData href="#ref-22"/>
+<geoLinkPropagation>false</geoLinkPropagation>
+</a2:ExamCardData>
+<a3:HtmlItemDescription id="ref-11" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Platform.ECPlatform/philips.pmsmr.platform.ecplatform_cs">
+<dataBuffer href="#ref-23"/>
+<htmlDataBuffer href="#ref-23"/>
+</a3:HtmlItemDescription>
+<SOAP-ENC:Array id="ref-15" SOAP-ENC:arrayType="xsd:string[6]">
+<item id="ref-24">trash</item>
+<item id="ref-25">tra</item>
+<item id="ref-26">sag</item>
+<item id="ref-27">Geo1</item>
+<item id="ref-28">trash</item>
+<item id="ref-29">Geo1</item>
+</SOAP-ENC:Array>
+<a1:ExamCardConfig id="ref-16" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECModel/philips.pmsmr.examcards.ecmodel_cs">
+<allowedMainSystemTypes xsi:type="xsd:anyType" xsi:null="1"/>
+<allowedGradientChains xsi:type="xsd:anyType" xsi:null="1"/>
+<swOptions xsi:type="xsd:anyType" xsi:null="1"/>
+<hwOptions xsi:type="xsd:anyType" xsi:null="1"/>
+<coilOptions xsi:type="xsd:anyType" xsi:null="1"/>
+</a1:ExamCardConfig>
+<a1:ExamCardsVersion id="ref-17" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECModel/philips.pmsmr.examcards.ecmodel_cs">
+<swVersion id="ref-30">5.7.1.3</swVersion>
+<modelVersion id="ref-31">5.7</modelVersion>
+<methodsVersion id="ref-32">38.4</methodsVersion>
+</a1:ExamCardsVersion>
+<a8:ArrayList id="ref-18" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-33"/>
+<_size>0</_size>
+<_version>0</_version>
+</a8:ArrayList>
+<a8:ArrayList id="ref-19" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-34"/>
+<_size>1</_size>
+<_version>43</_version>
+</a8:ArrayList>
+<a9:RelationshipManagerData id="ref-22" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Platform.ECPlatform/philips.pmsmr.platform.ecplatform.datamodel_cs">
+<outputsToInputsRelations href="#ref-35"/>
+<inputsToOutputsRelations href="#ref-36"/>
+</a9:RelationshipManagerData>
+<SOAP-ENC:Array id="ref-23" xsi:type="SOAP-ENC:base64">UEsDBAoAAAAAAJJGbj8AAAAAAAAAAAAAAAAJAG8AaW5kZXguaHRtU0RaAJgAAAAACAC7vKdbY2RgaRFhYGAwYIAAHyBmZAUzWUWBxFobnq+G3bwH1F7dDvjEjFuOkYmBgQmomxkkKyDB8J9RngEkBlKrACQUQGwBEYg4I0RcCIdaRSAbAFVUDQAHxMjATsTIwE7EyMBOUEsBAhcLCgAAAAAAkkZuPwAAAAAAAAAAAAAAAAkAEQAAAAAAAAAgALaBAAAAAGluZGV4Lmh0bVNEBACYAAAAVVQFAAfEyMBOUEsFBgAAAAABAAEASAAAAJYAAAAAAA==</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-33" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-34" SOAP-ENC:arrayType="xsd:anyType[32]">
+<item href="#ref-37"/>
+</SOAP-ENC:Array>
+<a8:Hashtable id="ref-35" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<LoadFactor>0.72</LoadFactor>
+<Version>113</Version>
+<Comparer xsi:null="1"/>
+<HashCodeProvider xsi:null="1"/>
+<HashSize>89</HashSize>
+<Keys href="#ref-38"/>
+<Values href="#ref-39"/>
+</a8:Hashtable>
+<a8:Hashtable id="ref-36" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<LoadFactor>0.72</LoadFactor>
+<Version>94</Version>
+<Comparer xsi:null="1"/>
+<HashCodeProvider xsi:null="1"/>
+<HashSize>89</HashSize>
+<Keys href="#ref-40"/>
+<Values href="#ref-41"/>
+</a8:Hashtable>
+<a1:ECInstrument id="ref-37" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECModel/philips.pmsmr.examcards.ecmodel_cs">
+<scanSet href="#ref-43"/>
+</a1:ECInstrument>
+<SOAP-ENC:Array id="ref-38" SOAP-ENC:arrayType="xsd:anyType[5]">
+<item href="#ref-44"/>
+<item href="#ref-45"/>
+<item href="#ref-46"/>
+<item href="#ref-47"/>
+<item href="#ref-48"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-39" SOAP-ENC:arrayType="xsd:anyType[5]">
+<item href="#ref-49"/>
+<item href="#ref-50"/>
+<item href="#ref-51"/>
+<item href="#ref-52"/>
+<item href="#ref-53"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-40" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-44"/>
+<item href="#ref-54"/>
+<item href="#ref-47"/>
+<item href="#ref-48"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-41" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-55"/>
+<item href="#ref-56"/>
+<item href="#ref-57"/>
+<item href="#ref-58"/>
+</SOAP-ENC:Array>
+<a10:ScanSet id="ref-43" xmlns:a10="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.Model/philips.pmsmr.examcards.model.scanset_cs">
+<executionSteps href="#ref-59"/>
+</a10:ScanSet>
+<a2:ProcessingStepData id="ref-44" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECModel/philips.pmsmr.examcards.ecmodel.datamodel_cs">
+<manualStart>false</manualStart>
+<protocol href="#ref-61"/>
+<description href="#ref-62"/>
+<name id="ref-63">SAGcs_3D_ProstateVIEW_T2</name>
+</a2:ProcessingStepData>
+<a2:OutputDescriptorData id="ref-45" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECModel/philips.pmsmr.examcards.ecmodel.datamodel_cs">
+<seriesType xsi:type="xsd:anyType" xsi:null="1"/>
+<description xsi:type="xsd:anyType" xsi:null="1"/>
+<seriesName id="ref-64">TRAcs_3D_ProstateVIEW_T2</seriesName>
+<viewingProcedure xsi:type="xsd:anyType" xsi:null="1"/>
+<useViewingProcedure>true</useViewingProcedure>
+<pushToWorkStation>false</pushToWorkStation>
+<isCandidateForTransfer>true</isCandidateForTransfer>
+</a2:OutputDescriptorData>
+<a2:OutputDescriptorData id="ref-46" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECModel/philips.pmsmr.examcards.ecmodel.datamodel_cs">
+<seriesType xsi:type="xsd:anyType" xsi:null="1"/>
+<description xsi:type="xsd:anyType" xsi:null="1"/>
+<seriesName id="ref-65">SAGcs_3D_ProstateVIEW_T2</seriesName>
+<viewingProcedure xsi:type="xsd:anyType" xsi:null="1"/>
+<useViewingProcedure>true</useViewingProcedure>
+<pushToWorkStation>false</pushToWorkStation>
+<isCandidateForTransfer>true</isCandidateForTransfer>
+</a2:OutputDescriptorData>
+<a2:OutputDescriptorData id="ref-47" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECModel/philips.pmsmr.examcards.ecmodel.datamodel_cs">
+<seriesType xsi:type="xsd:anyType" xsi:null="1"/>
+<description xsi:type="xsd:anyType" xsi:null="1"/>
+<seriesName xsi:type="xsd:anyType" xsi:null="1"/>
+<viewingProcedure xsi:type="xsd:anyType" xsi:null="1"/>
+<useViewingProcedure>true</useViewingProcedure>
+<pushToWorkStation>false</pushToWorkStation>
+<isCandidateForTransfer>true</isCandidateForTransfer>
+</a2:OutputDescriptorData>
+<a2:ProcessingStepData id="ref-48" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECModel/philips.pmsmr.examcards.ecmodel.datamodel_cs">
+<manualStart>false</manualStart>
+<protocol href="#ref-66"/>
+<description href="#ref-67"/>
+<name id="ref-68">TRAcs_3D_ProstateVIEW_T2</name>
+</a2:ProcessingStepData>
+<a8:ArrayList id="ref-49" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-69"/>
+<_size>1</_size>
+<_version>1</_version>
+</a8:ArrayList>
+<a8:ArrayList id="ref-50" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-70"/>
+<_size>1</_size>
+<_version>1</_version>
+</a8:ArrayList>
+<a8:ArrayList id="ref-51" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-71"/>
+<_size>1</_size>
+<_version>1</_version>
+</a8:ArrayList>
+<a8:ArrayList id="ref-52" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-72"/>
+<_size>1</_size>
+<_version>1</_version>
+</a8:ArrayList>
+<a8:ArrayList id="ref-53" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-73"/>
+<_size>1</_size>
+<_version>1</_version>
+</a8:ArrayList>
+<a10:SingleScan id="ref-54" xmlns:a10="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.Model/philips.pmsmr.examcards.model.scanset_cs">
+<smartGeoType xsi:type="a7:SmartPlanType" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Platform.Aswglo/philips.pmsmr.platform.aswglo_cli">AWPLAN_SMARTPLAN_TYPE_NONE</smartGeoType>
+<vertebraRanges href="#ref-75"/>
+<scanProcedure href="#ref-76"/>
+<stationNumber>-1</stationNumber>
+<detail href="#ref-77"/>
+<geometryName href="#ref-29"/>
+<reuseStackSizes>false</reuseStackSizes>
+<viewingProcedure xsi:type="xsd:anyType" xsi:null="1"/>
+<pushToWorkStation>false</pushToWorkStation>
+<geoLinkID>0</geoLinkID>
+<scanProperties href="#ref-78"/>
+<useViewingProcedure>true</useViewingProcedure>
+<traSliceOrder>4</traSliceOrder>
+<sagSliceOrder>0</sagSliceOrder>
+<corSliceOrder>2</corSliceOrder>
+<traMirrorflipOrder>0</traMirrorflipOrder>
+<sagMirrorflipOrder>0</sagMirrorflipOrder>
+<corMirrorflipOrder>0</corMirrorflipOrder>
+<isPreScan>false</isPreScan>
+<isCandidateForTransfer>true</isCandidateForTransfer>
+<isFromPatientDB>false</isFromPatientDB>
+<attainedSED>0</attainedSED>
+<contrastPresetName xsi:type="xsd:anyType" xsi:null="1"/>
+<iaPlanStarted>false</iaPlanStarted>
+</a10:SingleScan>
+<a8:ArrayList id="ref-55" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-79"/>
+<_size>1</_size>
+<_version>1</_version>
+</a8:ArrayList>
+<a8:ArrayList id="ref-56" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-80"/>
+<_size>1</_size>
+<_version>1</_version>
+</a8:ArrayList>
+<a8:ArrayList id="ref-57" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-81"/>
+<_size>2</_size>
+<_version>8</_version>
+</a8:ArrayList>
+<a8:ArrayList id="ref-58" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-82"/>
+<_size>1</_size>
+<_version>1</_version>
+</a8:ArrayList>
+<a10:ExecutionStepList id="ref-59" xmlns:a10="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.Model/philips.pmsmr.examcards.model.scanset_cs">
+<list href="#ref-83"/>
+</a10:ExecutionStepList>
+<a11:VolumeProtocol id="ref-61" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">
+<generateOrthogonals>false</generateOrthogonals>
+<propagatePrecedingDynamics>false</propagatePrecedingDynamics>
+<propagateFollowingDynamics>true</propagateFollowingDynamics>
+<dynamicsRangeSelected>false</dynamicsRangeSelected>
+<startDynamics>0</startDynamics>
+<endDynamics>0</endDynamics>
+<currentPoint href="#ref-84"/>
+<propagatePhasesAll>false</propagatePhasesAll>
+<propagateStationsAll>true</propagateStationsAll>
+<propagateBValuesAll>false</propagateBValuesAll>
+<propagateDirectionsAll>false</propagateDirectionsAll>
+<propagateImageTypesAll>false</propagateImageTypesAll>
+<propagateEchoesAll>false</propagateEchoesAll>
+<propagateChemicalShiftsAll>false</propagateChemicalShiftsAll>
+<singleAxis>false</singleAxis>
+<renderMode xsi:type="a11:ProtocolRenderMode" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">Average</renderMode>
+<description id="ref-85">Default VolumeProtocol</description>
+<isHighRButtonChecked>true</isHighRButtonChecked>
+<reverseGenerationOrder>false</reverseGenerationOrder>
+<fastReconstruction>false</fastReconstruction>
+<currentStation>0</currentStation>
+<volumeAngulations>true</volumeAngulations>
+<stations href="#ref-86"/>
+<preloadPS>false</preloadPS>
+<saveDefaultPS>false</saveDefaultPS>
+<actualOutputs>1</actualOutputs>
+<outputSeriesName id="ref-87">SAGcs_3D_ProstateVIEW_T2</outputSeriesName>
+<prefixes xsi:type="xsd:anyType" xsi:null="1"/>
+</a11:VolumeProtocol>
+<a3:HtmlItemDescription id="ref-62" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Platform.ECPlatform/philips.pmsmr.platform.ecplatform_cs">
+<dataBuffer href="#ref-88"/>
+<htmlDataBuffer href="#ref-88"/>
+</a3:HtmlItemDescription>
+<a11:VolumeProtocol id="ref-66" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">
+<generateOrthogonals>false</generateOrthogonals>
+<propagatePrecedingDynamics>false</propagatePrecedingDynamics>
+<propagateFollowingDynamics>true</propagateFollowingDynamics>
+<dynamicsRangeSelected>false</dynamicsRangeSelected>
+<startDynamics>0</startDynamics>
+<endDynamics>0</endDynamics>
+<currentPoint href="#ref-89"/>
+<propagatePhasesAll>false</propagatePhasesAll>
+<propagateStationsAll>true</propagateStationsAll>
+<propagateBValuesAll>false</propagateBValuesAll>
+<propagateDirectionsAll>false</propagateDirectionsAll>
+<propagateImageTypesAll>false</propagateImageTypesAll>
+<propagateEchoesAll>false</propagateEchoesAll>
+<propagateChemicalShiftsAll>false</propagateChemicalShiftsAll>
+<singleAxis>false</singleAxis>
+<renderMode xsi:type="a11:ProtocolRenderMode" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">Average</renderMode>
+<description id="ref-90">Default VolumeProtocol</description>
+<isHighRButtonChecked>true</isHighRButtonChecked>
+<reverseGenerationOrder>false</reverseGenerationOrder>
+<fastReconstruction>false</fastReconstruction>
+<currentStation>0</currentStation>
+<volumeAngulations>true</volumeAngulations>
+<stations href="#ref-91"/>
+<preloadPS>false</preloadPS>
+<saveDefaultPS>false</saveDefaultPS>
+<actualOutputs>1</actualOutputs>
+<outputSeriesName id="ref-92">TRAcs_3D_ProstateVIEW_T2</outputSeriesName>
+<prefixes xsi:type="xsd:anyType" xsi:null="1"/>
+</a11:VolumeProtocol>
+<a3:HtmlItemDescription id="ref-67" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Platform.ECPlatform/philips.pmsmr.platform.ecplatform_cs">
+<dataBuffer href="#ref-93"/>
+<htmlDataBuffer href="#ref-93"/>
+</a3:HtmlItemDescription>
+<SOAP-ENC:Array id="ref-69" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-47"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-70" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-48"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-71" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-44"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-72" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-54"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-73" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-47"/>
+</SOAP-ENC:Array>
+<a8:ArrayList id="ref-75" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-94"/>
+<_size>0</_size>
+<_version>0</_version>
+</a8:ArrayList>
+<a12:ScanProcedure id="ref-76" xmlns:a12="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.Model/philips.pmsmr.examcards.model.scanproperties_cs">
+<parameterData href="#ref-96"/>
+<methodDescription id="ref-97"></methodDescription>
+<name href="#ref-8"/>
+<anatomicRegion href="#ref-97"/>
+<anatomicalRegion href="#ref-97"/>
+<AnatomyChanged xsi:null="1"/>
+<AnatomicalRegionChanged xsi:null="1"/>
+<anatomy xsi:null="1"/>
+<applicationMode>AGDEF_APPL_IMAGING</applicationMode>
+<linkToOriginalProtocol href="#ref-98"/>
+<lastModifiedTimeUtc id="ref-99">2/6/2018 9:52:38 AM</lastModifiedTimeUtc>
+<linkState>false</linkState>
+<laterality id="ref-100">unpaired</laterality>
+<NameChanged xsi:null="1"/>
+<Modified xsi:null="1"/>
+<LateralityChanged xsi:null="1"/>
+<Disposing xsi:null="1"/>
+</a12:ScanProcedure>
+<a3:HtmlItemDescription id="ref-77" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Platform.ECPlatform/philips.pmsmr.platform.ecplatform_cs">
+<dataBuffer href="#ref-101"/>
+<htmlDataBuffer href="#ref-101"/>
+</a3:HtmlItemDescription>
+<a12:ScanProperties id="ref-78" xmlns:a12="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.Model/philips.pmsmr.examcards.model.scanproperties_cs">
+<pause>true</pause>
+<scanAlign>false</scanAlign>
+<approvedFeatures href="#ref-102"/>
+<approvedFeatureSpecificOptions href="#ref-103"/>
+<scanAlignOverlap>30</scanAlignOverlap>
+<smartScoutType xsi:type="a7:SmartPlanType" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Platform.Aswglo/philips.pmsmr.platform.aswglo_cli">AWPLAN_SMARTPLAN_TYPE_NONE</smartScoutType>
+<madeByPhilips>true</madeByPhilips>
+<suspendableDynamic>false</suspendableDynamic>
+<requiredConfiguration href="#ref-104"/>
+</a12:ScanProperties>
+<SOAP-ENC:Array id="ref-79" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-46"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-80" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-47"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-81" SOAP-ENC:arrayType="xsd:anyType[8]">
+<item href="#ref-48"/>
+<item href="#ref-44"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-82" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-45"/>
+</SOAP-ENC:Array>
+<a8:ArrayList id="ref-83" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-105"/>
+<_size>1</_size>
+<_version>1</_version>
+</a8:ArrayList>
+<SOAP-ENC:Array id="ref-84" SOAP-ENC:arrayType="xsd:unsignedInt[1]">
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-86" SOAP-ENC:arrayType="a11:ProtocolStation[1]" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">
+<item href="#ref-106"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-88" xsi:type="SOAP-ENC:base64">UEsDBAoAAAAAAM9YrVgAAAAAAAAAAAAAAAAJAG8AaW5kZXguaHRtU0RaAJgAAAAACABskpkEY2RgaRFhYGAwYIAAHyBmZAUzWUWBxIzOkh+xpdKvdhyIsv3IjFuOkYmBgQmomxkkKyDB8J9RngEkBlKrACQUQGwBEYg4I0RcCIdaRSAbAFVUDQAHFthBZhbYQWYW2EFmUEsBAhcLCgAAAAAAz1itWAAAAAAAAAAAAAAAAAkAEQAAAAAAAAAgALaBAAAAAGluZGV4Lmh0bVNEBACYAAAAVVQFAAcW2EFmUEsFBgAAAAABAAEASAAAAJYAAAAAAA==</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-89" SOAP-ENC:arrayType="xsd:unsignedInt[1]">
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-91" SOAP-ENC:arrayType="a11:ProtocolStation[1]" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">
+<item href="#ref-107"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-93" xsi:type="SOAP-ENC:base64">UEsDBAoAAAAAAI1gqlgAAAAAAAAAAAAAAAAJAG8AaW5kZXguaHRtU0RaAJgAAAAACABskpkEY2RgaRFhYGAwYIAAHyBmZAUzWUWBxIzOkh+xpdKvdhyIsv3IjFuOkYmBgQmomxkkKyDB8J9RngEkBlKrACQUQGwBEYg4I0RcCIdaRSAbAFVUDQAHKfE9ZinxPWYp8T1mUEsBAhcLCgAAAAAAjWCqWAAAAAAAAAAAAAAAAAkAEQAAAAAAAAAgALaBAAAAAGluZGV4Lmh0bVNEBACYAAAAVVQFAAcp8T1mUEsFBgAAAAABAAEASAAAAJYAAAAAAA==</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-94" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-96" xsi:type="SOAP-ENC:base64">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b2R5AAAAAAAAAAAAAAAAAQIAAAABAAAAAAAAACdKAABJRl9zZWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAAAEAAAAAAAAARkoAAElGX21heF9CMV9ybXMAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAQAAAAAAAABlSgAASUZfcG5zX2luZm8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAABAAAAAAAAAIRKAABJRl9wbnNfZGJtZHRfaW5mbwAAAAAAAAAAAAAAAAAAAAABAgAAAAEAAAAAAAAAo0oAAElGX3NvdW5kX3ByZXNzdXJlX2xldmVsAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAA0KQAAU7X0A1NlcGEAAAAAAAAAAAAAAAABAAAA//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAP8PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAwAAAAAAAAAIAQAAEAIAAAAAAAAAAAAAAQAAAAAAAAACAAAAAgAAAAEAAAADAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAQAAAMgAAAAAAAAAAgAAAAAAAAAAAAAAAQAAADMBAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAU2VwYQAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAAAANQAAAAAAAAAAAAAAAAAAAG0AAAAAAAAAAQAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAEAAAAAAAAAFNlcGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAFNlcGEEAAAABAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAFNlcGEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAABAAAAAQAAAACAAAABAAAAAQAAAAEAAAABAAAABAAAAABAAAAAQAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAAAAAEYVAAAAAAAAAAAAACYAAAAEAAAAAAAAAAEAAAAAAAAABgAAAAIAAAABAAAAAAAAAAcAAAAAAAAACAAAAAsAAAAEAAAACQAAAA0AAAD/////AwAAAAEAAAADAAAABAAAAAEAAAAAAAAACAAAAAQAAAD//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////xIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAU2VwYQAA3EIAAJFDumiKQwBAZkMAAMZCAADGQgAAxkIAAMZCAADGQgAAxkIAAMZCAADGQgAAxkIAAMZCAADGQgAAxkIAAMZCAADGQgAAxkIAAMZCAADGQgAAxkIAAMZCzcyMP83MjD8AAMA/J5sMPyebDD8AAEA/uui+QgAAoEIAAKBCAADAP6iYnEIAAKBAAACAPwAAgD////9AAAAAPwAAgD6amZk+AADAPwAAQD9rxOrBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD573sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArfu4wQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2jUpQwAAtEIAgKJEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAHBCMzOTQQAAAAAAQM5EAACAPwPA7D8AAIA/gGDHQgAAQL9RF7FBQU5URVJJT1IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUE9TVEVSSU9SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL0NEQVMuQ29ubkJIL0NCSC5Db25uSVJGL1NCTS5EQ0MwAERDUC5Db25uUEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL0NEQVMuQ29ubkJIL0NCSC5Db25uSVJGL1NCTS5EQ0MzL0RDUC5Db25uUEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaVJGX0NPSUxTX1dJVEhfRU5ETwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQk9EWV9RVUFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUE9TVEVSSU9SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQU5URVJJT1IASQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAExFWF9MX0FDSQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE9TVEVSSU9SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL0NEQVMuQ29ubkJIL0NCSC5Db25uSVJGL1NCTS5Db25uVEZJTlQvVEZJTlQuQ29ublFCQwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL0NEQVMuQ29ubkJIL0NCSC5Db25uSVJGL1NCTS5EQ0MzL0RDUC5Db25uUEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL0NEQVMuQ29ubkJIL0NCSC5Db25uSVJGL1NCTS5EQ0MwAEFDSV8xNi5MaXR0b24xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAENEQVMuQ29ubkJIL0NCSC5Db25uSVJGL1NCTS5EQ0MxL0FDSV8xNi5MaXR0b24yAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAENEQVMuQ29ubkJIL0NCSC5Db25uSVJGL1NCTS5EQ0MzL0RDUC5Db25uUEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDY6MDYuNgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTMwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTY5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjY0IHggMjUxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMS4xMCAvIDEuMTAgLyAxLjUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMC41NSAvIDAuNTUgLyAwLjc1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMC4yMDYgLyAxMDUyLjIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMi44IC8gMzIyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTY5IC8gODQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANTc1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPCAgNDQgJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPCAxLjEgVy9rZyAvIG5vcm1hbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPCAwLjQga0ova2cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMi43NSB1VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANzYgJSAvIG5vcm1hbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTA0LjEgVC9zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASDEsUDMxLEMxMyxOQTIzLEYxOSxYLEhFMyxYRTEyOSxMSTcsTzE3AEFVVE8sVVNFUl9ERUYAQ0xFQVIsQlRfQ0xFQVIsU1lOLENMQVNfU1lOLFdFQUssU1RST05HLFVOSUZPUk0ATFIsUkwsQVAsUEEsRkgsSEYAUkwsQVAsRkgATk8sVVNFUl9ERUYsUkVTVCxaT09NAEhBTEZfRk9WLEZJTExfQk9SRSxVU0VSX0RFRgBNQU5VQUwsREVGQVVMVCxTSE9SVEVTVCxVU0VSX0RFRixMT05HRVNULEJFVFdFRU4ATk8sWUVTAE5PTkUsUkVHVUxBUixJUlJFR1VMQVIsSFlCUklELFNQSVJBTABVTklGT1JNLFBERl9EUklWRU4sQ09OVF9WQVJJQUJMRSxTVEVQX1ZBUklBQkxFAE5PLFAsUyxBVVRPLElSUkVHVUxBUgBOTyxVU0VSX0RFRixBVVRPAE5PLFdFQUssTUVESVVNLFNUUk9ORyxERUZBVUxULFdFQUtfUFVSRV9FTEwsTUVESVVNX1BVUkVfRUxMLFVTRVJfREVGAE5PTkUsU09TLEVTUElSSVQARDIsRDQsQ0RUVzEwAFRFQ0hfTk9ORSxCTEFTVCxTRU5TRQBOTyxTRU5TRSxCTEFTVCxTTElESU5HX1dJTkRPVwBUUkFOU1ZFUlNBTCxTQUdJVFRBTCxDT1JPTkFMAEFQLExSLEZIAFIsTCxBLFAsRixIAE5PLFlFUyxCWV9USElDS05FU1MATk8sTUFSUyxTRU1BQyxNQVZSSUMAV0VBSyxNRURJVU0sU1RST05HAE5PLExJTUlURUQsRlVMTCxNUlRDAEhFQURfRklSU1QsRkVFVF9GSVJTVABTVVBJTkUsUFJPTkUsTEVGVF9ERUNVQixSSUdIVF9ERUNVQgBJTUFHSU5HLFNQRUNUUk8AMkQsM0QsTVMsTTJELFNWLDFEAFNFLElSLE1JWEVELEZGRSxFQ0hPLEZJRABDQVJURVNJQU4sUkFESUFMLFNQSVJBTCxQUk9QRUxMRVIAVU5JRk9STSxHT0xERU5BTkdMRSxQU0VVRE9HT0xERU5BTkdMRQBPVVQsSU4sSU5PVVQAT1MsVEFJUgBOTyxUU0UsVEZFLEVQSSxHUkFTRSxURkVfRVBJLFRTSQBOTyxCUkFJTjEsQlJBSU4yLEJSQUlOMyxCUkFJTjQsQlJBSU41LEJSQUlONixCUkFJTjcsQlJBSU44LFNQSU5FMSxTUElORTIsU1BJTkUzLFNQSU5FNCxTUElORTUsU1BJTkU2LFNQSU5FNyxTUElORTgsTVNLMSxNU0syLE1TSzMsTVNLNCxNU0s1LE1TSzYsTVNLNyxNU0s4LE1TSzksTVNLMTAsTVNLMTEsTVNLMTIsTVNLMTMsTVNLMTQsTVNLMTUsTVNLMTYsTVNLMTcsTVNLMTgsTVNLMTksTVNLMjAsTVNLMjEsTVNLMjIsTVNLMjMsTVNLMjQsTVNLMjUsTVNLMjYsTVNLMjcsTVNLMjgsTVNLMjksTVNLMzAsTVNLMzEsTVNLMzIsQk9EWTEsQk9EWTIsQk9EWTMsQk9EWTQsQk9EWTUsQk9EWTYsQk9EWTcsQk9EWTgsQlJFQVNUMSxCUkVBU1QyLEJSRUFTVDMsQlJFQVNUNCxCUkVBU1Q1LEJSRUFTVDYsQlJFQVNUNyxCUkVBU1Q4AE1TSCxTU0gsREVGQVVMVABOTyxFTCxQUk9QLFVGTEFSRSxTUExJQ0UASElHSF9MT1csTE9XX0hJR0gsTElORUFSLFJFVl9MSU5FQVIsU1dFRVAsT1BUX0NFTlRSSUMsT1BUX1JFVl9DRU5UUklDLE9QVF9NSU5fQ0VOVFJJQyxTV0VFUF8yLFNXRUVQXzQsVU5ERUYsRkxFWCxSQURJQUwsU1BJUkFMLFZJU1RBAERFRkFVTFQsTElOX1JFVl9MSU4sTE9fSElfTElOLExPX0hJX1JFVl9MSU4sTE9fSElfTE9fSEksTE9fSElfSElfTE8AWVosWlksSFlCUklELFVOREVGAE5PLFlFUyxBTlRJAERFRkFVTFQsVEhST1VHSF9QTEFORSxJTl9QTEFORSxJTl9QTEFORV9FWFRSQV9TVFJPTkcATk9UX1VTRUQxLFNIT1JULFNIT1JURVNULFVTRVJfREVGLE5PVF9VU0VEMyxJTlBIQVNFLE9VVFBIQVNFAE5PTkUsSFlQRVJFQ0hPLFRSQVBTAE5PLFlFUyxERUZBVUxUAERFRkFVTFQsTUlOSU1VTSxVU0VSX0RFRixNQVhJTVVNAE5PLEFVVE8sVk9MVU1FLFNNQVJULFFVQURSQVRVUkUsVE9PTABERUZBVUxULEFVVE8sVk9MVU1FLEhPU19BVVRPLEhPU19WT0xVTUUsRklELElUX1NQRUNUUk8sSVRfU1BFQ1RST19WT0wsTk8sTUFOVUFMLFNISU1UT09MLElCU19WT0xVTUUsSUJTX1NNQVJUX0JSRUFTVCxJQlNfU01BUlRfU0hJTQBOTyxZRVMsQVVUTyxSRVNFVABOTyxBVVRPX0JPWCxBVVRPX0VMTElQU09JRCxNQU5VQUwATk8sQVVUTyxTVE9SRSxSRUxPQUQATk8sWUVTLFFVQU5UAE5PLFNQSVIsU1BBSVIsUFJPU0VUAE5PTkUsWUVTLElNUFJPVkVELFFJUixTRlFJUixNU0RFAERFRkFVTFQsSU1QUk9WRUQsTVNERSxOT05FAE5PLE9OX1JFUyxPRkZfUkVTLE9GRl9SRVNfTVVMVElfUFVMU0UATk8sRFdJLERUSQBFLFRFAE5PTkUsQ0FSRElBQ19OQVRJVkUsQ0FSRElBQ19FTkhBTkNFRCxDQVJESUFDX1VTUl9ERUYsTVNLAEFMTCxMRUZULFJJR0hULEJPVEgASElHSCxNT0RFUkFURSxMT1csVUxUUkFfTE9XLFVTRVJfREVGSU5FRABISUdILE1PREVSQVRFLExPVyxVU0VSX0RFRgBSRUdVTEFSLERFRkFVTFQsVVNFUl9ERUYsRlVMTF9DT05UUk9MLE1BWElNVU0sRU5IQU5DRUQsRU5IQU5DRURfTUFYAE5PLFlFUyxVU0VSX0RFRixDT01GT1JUT05FAE5PLFRSSUcsR0FURSxSRVRSTwBOTyxDU1BBTU0sU1BBTU0sU0VOQwBOTyxUUklHLEhPTEQsUEVBUixHQVRFAE9GRixHQVRFLFRSQUNLLEdBX0FORF9UUixUUklHR0VSLFRSSUdHRVJfQU5EX1RSAE5PLFdBVEVSLEZBVABBU19STkFWLFVTRVJfREVGAEEsQixDLEQsRSxGLEcsSCxJLEosSyxMLE0sTixPLFAsUSxSLFMsVABOTyxZRVMsT0JTT0xFVEUsRklSU1RfRUNITyxTRUNPTkRfRUNITyxCT1RIX0VDSE9FUyxBTExfRUNIT0VTLEFOVEkAUkVBTCxJTUFHSU5BUlksTU9EVUxVUyxQSEFTRSxOTwBSTCxBUCxGSCxSTF9BUCxSTF9GSCxBUF9GSCxSTF9BUF9GSABOTyxZRVMsUkVWRVJTRUQATk8sSU5ESVZJRFVBTCxCTE9DSyxDT05UUkFTVFBIQVNFUwBOTyxGQUlSLFNUQVIscENBU0wsVElNRVNMSVAsQ0lORU1BAFBBUkFMTEVMLEZSRUUsRlJFRV9CRUFNAFNLSVAsQVVUTyxGVUxMLE9OTFkATk8sQVVUTyxTRUxFQ1QATk8sU0VOU0VfUkVGX0NMQVNTSUMsU0VOU0VfUkVGX0ZBU1QsQ09JTFNVUlZFWSxDT0lMU1VSVkVZX0ZBU1QsU0VOU0VfUkVGX0hZQlJJRCxTRU5TRV9SRUZfVFNFAERFRkFVTFQsTk8sWUVTAE5PTkUsQlJBSU4sS05FRSxCT1RIX0tORUVTLENfU1BJTkUsVF9TUElORSxMX1NQSU5FLFRPVEFMX1NQSU5FLFNIT1VMREVSLEFOS0xFLEJPVEhfQU5LTEVTLFdSSVNULEJSRUFTVFMsQlJBSU5fQU5HSU8sQ0FSRElBQ19HTE9CQUwsQ0FSRElBQ19MT0NBTCxISVAsQk9USF9ISVBTLEFCRE9NRU4sUEVMVklTLFJFU0VBUkNIAE5PLFlFUyxDQUwsUFJFX1NDQU4ATk8sWUVTLENBTABOTyxNSVAsTVBSLEZTUgBUMSxUMixSSE8sQ1IsTk8sQjEsUjIsQjAsU1VNLFNFTkNfU1RSQUlOLFNFTkNfQU5BVE9NWQBHUkVZX01BVFRFUixXSElURV9NQVRURVIsQ1NGLFNLRUxFVEFMX01VU0NMRSxWRVJURUJSQUxfTUFSUk9XLEJPTkVfTUFSUk9XLEZBVCxMVU5HLEJMT09ELERJU0ssTElWRVIsUEFOQ1JFQVMsS0lETkVZLFNQTEVFTixWSVRSRU9VU19IVU1PUixGRU1BTEVfUEVMVklTLE1BTEVfUEVMVklTLENBUkRJQUNfTVVTQ0xFLEJSRUFTVCxTSUxJQ09ORSxQSEFOVE9NX0ZMVUlELFNQQVJFNCxTUEFSRTUsVVNFUl9ERUYsR0FETzE1MCxHQURPMTAwLEdBRE81MABOT05FLERFRkFVTFQsSElHSCxVU0VSX0RFRklORUQATk8sREVGQVVMVCxTT0ZULElOVEVSTUVESUFURSxIQVJELFZFUllfSEFSRABQQVJBTExFTCxERUxBWUVELE9OX1RIRV9GTFksRFlOX1NDQU4sUkVBTF9USU1FLFJFQUxfVElNRV9EWU4sUkVBTF9USU1FX1NEVwBOTyxZRVMsWUVTX0xPQUQATk9ORSwyRCwzRCxERUZBVUxUAE5PUk1BTCxNUFJfQjBfTUFQLE1QUl9XQVRFUl9NQVAsQkxJUF9ET1dOX0lNRwBOT1JNQUwsTVBSX0IwX01BUABOTyxERUZBVUxUAA==</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-98" SOAP-ENC:arrayType="xsd:string[3]">
+<item id="ref-108">Pelvis</item>
+<item id="ref-109">Prostate</item>
+<item id="ref-110">cs_3D_ProstateVIEW_T2.Protocol</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-101" xsi:type="SOAP-ENC:base64">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</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-102" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-103" SOAP-ENC:arrayType="a7:Option[0]" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Platform.Aswglo/philips.pmsmr.platform.aswglo_cli">
+</SOAP-ENC:Array>
+<a12:ScanProcedureConfig id="ref-104" xmlns:a12="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.Model/philips.pmsmr.examcards.model.scanproperties_cs">
+<allowedMainSystemTypes href="#ref-111"/>
+<allowedGradientChains href="#ref-112"/>
+<swOptions href="#ref-113"/>
+<hwOptions href="#ref-114"/>
+<coilOptions href="#ref-115"/>
+</a12:ScanProcedureConfig>
+<SOAP-ENC:Array id="ref-105" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-116"/>
+</SOAP-ENC:Array>
+<a11:ProtocolStation id="ref-106" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">
+<windowCenter>888.96684010598449</windowCenter>
+<windowWidth>1472.2791077220513</windowWidth>
+<stack href="#ref-117"/>
+<extrusions id="ref-118">PEFycmF5T2ZSZXByZXNlbnRhdGlvbkRhdGEgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLmRhdGFjb250cmFjdC5vcmcvMjAwNC8wNy9QaGlsaXBzLlBtc01pcC5Qcml2YXRlLlZpZXdpbmcuVm9sdW1lLlNlZ21lbnRhdGlvbi5CYXNlIiB4bWxuczppPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSI+PFJlcHJlc2VudGF0aW9uRGF0YSBpOm5pbD0idHJ1ZSIvPjwvQXJyYXlPZlJlcHJlc2VudGF0aW9uRGF0YT4=</extrusions>
+<clipBoxTopLeft xsi:type="xsd:anyType" xsi:null="1"/>
+<clipBoxBottomRight xsi:type="xsd:anyType" xsi:null="1"/>
+<lightPosition xsi:type="xsd:anyType" xsi:null="1"/>
+<lightIntensity>1</lightIntensity>
+<densityOpacityMap href="#ref-119"/>
+<colorOpacityMap href="#ref-120"/>
+</a11:ProtocolStation>
+<a11:ProtocolStation id="ref-107" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">
+<windowCenter>888.96684010598449</windowCenter>
+<windowWidth>1472.2791077220513</windowWidth>
+<stack href="#ref-121"/>
+<extrusions id="ref-122">PEFycmF5T2ZSZXByZXNlbnRhdGlvbkRhdGEgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLmRhdGFjb250cmFjdC5vcmcvMjAwNC8wNy9QaGlsaXBzLlBtc01pcC5Qcml2YXRlLlZpZXdpbmcuVm9sdW1lLlNlZ21lbnRhdGlvbi5CYXNlIiB4bWxuczppPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSI+PFJlcHJlc2VudGF0aW9uRGF0YSBpOm5pbD0idHJ1ZSIvPjwvQXJyYXlPZlJlcHJlc2VudGF0aW9uRGF0YT4=</extrusions>
+<clipBoxTopLeft xsi:type="xsd:anyType" xsi:null="1"/>
+<clipBoxBottomRight xsi:type="xsd:anyType" xsi:null="1"/>
+<lightPosition xsi:type="xsd:anyType" xsi:null="1"/>
+<lightIntensity>1</lightIntensity>
+<densityOpacityMap href="#ref-123"/>
+<colorOpacityMap href="#ref-124"/>
+</a11:ProtocolStation>
+<a8:BitArray id="ref-111" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<m_array href="#ref-125"/>
+<m_length>8</m_length>
+<_version>8</_version>
+</a8:BitArray>
+<a8:BitArray id="ref-112" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<m_array href="#ref-126"/>
+<m_length>19</m_length>
+<_version>19</_version>
+</a8:BitArray>
+<a8:BitArray id="ref-113" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<m_array href="#ref-127"/>
+<m_length>512</m_length>
+<_version>512</_version>
+</a8:BitArray>
+<a8:BitArray id="ref-114" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<m_array href="#ref-128"/>
+<m_length>9</m_length>
+<_version>9</_version>
+</a8:BitArray>
+<a8:BitArray id="ref-115" xmlns:a8="http://schemas.microsoft.com/clr/ns/System.Collections">
+<m_array href="#ref-129"/>
+<m_length>512</m_length>
+<_version>512</_version>
+</a8:BitArray>
+<a10:ExecutionStep id="ref-116" xmlns:a10="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.Model/philips.pmsmr.examcards.model.scanset_cs">
+<isContrastParametersFilled>false</isContrastParametersFilled>
+<singleScan href="#ref-54"/>
+<contrastInjectionProtocol xsi:type="xsd:anyType" xsi:null="1"/>
+<contrast>false</contrast>
+<executionStepContrastUsed>true</executionStepContrastUsed>
+<dynamicStep href="#ref-130"/>
+<stepDuration>366.5999755859375</stepDuration>
+</a10:ExecutionStep>
+<a11:ProtocolStackInfo id="ref-117" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">
+<type xsi:type="a11:ProtocolStackType" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">Parallel</type>
+<firstSliceNumber>1</firstSliceNumber>
+<numberOfSlices>20</numberOfSlices>
+<sliceDistance>4</sliceDistance>
+<sliceThickness>4</sliceThickness>
+<pixelSize href="#ref-131"/>
+<fovRL>80</fovRL>
+<fovAP>290</fovAP>
+<fovFH>290</fovFH>
+<offcentreRL>0.0223593712</offcentreRL>
+<offcentreAP>-1.29043007</offcentreAP>
+<offcentreFH>2.10196066</offcentreFH>
+<angulationRL>0</angulationRL>
+<angulationAP>0</angulationAP>
+<angulationFH>0</angulationFH>
+<viewAxis xsi:type="a11:ProtocolAxis" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">RightLeft</viewAxis>
+<radialAxis xsi:type="a11:ProtocolAxis" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">FeetHead</radialAxis>
+<radialAngle>12</radialAngle>
+</a11:ProtocolStackInfo>
+<SOAP-ENC:Array id="ref-119" SOAP-ENC:arrayType="xsd:double[10]">
+<item>549.5</item>
+<item>0</item>
+<item>641.097729</item>
+<item>0.34</item>
+<item>803.155171</item>
+<item>0.569998</item>
+<item>972.258638</item>
+<item>0.358705</item>
+<item>1162.5</item>
+<item>0.339988</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-120" SOAP-ENC:arrayType="xsd:double[16]">
+<item>825</item>
+<item>1</item>
+<item>0.35</item>
+<item>0.35</item>
+<item>1085.728969</item>
+<item>1</item>
+<item>0.89</item>
+<item>0.64</item>
+<item>1156.196265</item>
+<item>0.96</item>
+<item>1</item>
+<item>0.98</item>
+<item>3087</item>
+<item>1</item>
+<item>0.96</item>
+<item>0.96</item>
+</SOAP-ENC:Array>
+<a11:ProtocolStackInfo id="ref-121" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">
+<type xsi:type="a11:ProtocolStackType" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">Parallel</type>
+<firstSliceNumber>1</firstSliceNumber>
+<numberOfSlices>72</numberOfSlices>
+<sliceDistance>3</sliceDistance>
+<sliceThickness>3</sliceThickness>
+<pixelSize href="#ref-132"/>
+<fovRL>290</fovRL>
+<fovAP>290</fovAP>
+<fovFH>216</fovFH>
+<offcentreRL>0.0223593712</offcentreRL>
+<offcentreAP>-1.29043007</offcentreAP>
+<offcentreFH>2.10196066</offcentreFH>
+<angulationRL>0</angulationRL>
+<angulationAP>0</angulationAP>
+<angulationFH>0</angulationFH>
+<viewAxis xsi:type="a11:ProtocolAxis" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">FeetHead</viewAxis>
+<radialAxis xsi:type="a11:ProtocolAxis" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ViewingProcessing.VolumeView/philips.pmsmr.viewingprocessing.volumeview.protocol_cs">RightLeft</radialAxis>
+<radialAngle>12</radialAngle>
+</a11:ProtocolStackInfo>
+<SOAP-ENC:Array id="ref-123" SOAP-ENC:arrayType="xsd:double[10]">
+<item>549.5</item>
+<item>0</item>
+<item>641.097729</item>
+<item>0.34</item>
+<item>803.155171</item>
+<item>0.569998</item>
+<item>972.258638</item>
+<item>0.358705</item>
+<item>1162.5</item>
+<item>0.339988</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-124" SOAP-ENC:arrayType="xsd:double[16]">
+<item>825</item>
+<item>1</item>
+<item>0.35</item>
+<item>0.35</item>
+<item>1085.728969</item>
+<item>1</item>
+<item>0.89</item>
+<item>0.64</item>
+<item>1156.196265</item>
+<item>0.96</item>
+<item>1</item>
+<item>0.98</item>
+<item>3087</item>
+<item>1</item>
+<item>0.96</item>
+<item>0.96</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-125" SOAP-ENC:arrayType="xsd:int[1]">
+<item>64</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-126" SOAP-ENC:arrayType="xsd:int[1]">
+<item>8192</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-127" SOAP-ENC:arrayType="xsd:int[16]">
+<item>1025</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>64</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-128" SOAP-ENC:arrayType="xsd:int[1]">
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-129" SOAP-ENC:arrayType="xsd:int[16]">
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>-1073741824</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<a12:DynamicStepProperties id="ref-130" xmlns:a12="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.Model/philips.pmsmr.examcards.model.scanproperties_cs">
+<delayMode xsi:type="a13:DynamicScanDelayMode" xmlns:a13="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.Acquisition.AcqGlo/philips.pmsmr.acquisition.acqglo.shared_cli">AGDEF_SCANDELAY_MODE_SHORTEST</delayMode>
+<delayDuration>0</delayDuration>
+<dynamicCount>0</dynamicCount>
+<firstDynamic>1</firstDynamic>
+</a12:DynamicStepProperties>
+<SOAP-ENC:Array id="ref-131" SOAP-ENC:arrayType="xsd:double[2]">
+<item>0.453125</item>
+<item>0.453125</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-132" SOAP-ENC:arrayType="xsd:double[2]">
+<item>0.453125</item>
+<item>0.453125</item>
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
