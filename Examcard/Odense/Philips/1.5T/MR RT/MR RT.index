@@ -1,0 +1,91 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>20</_size>
+<_version>20</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[32]">
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-4">MR sim Head-Neck (L) Optional Scans</name>
+<type id="ref-5">Philips.PmsMR.ExamCards.ECDatabase.ExamCardFile</type>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-6">MR sim Head-Neck (L)</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-7">MR sim Head-Neck (S) Optional Scans</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-8">MR sim Head-Neck (S)</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-9">MR sim Pelvis Optional Scans</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-10">MR sim Pelvis</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-11">MR sim Prostate Optional scans</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-12">MR sim Prostate</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-13">MR sim Thoraco-Lumbar Spine Optional Scans</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-14">ELPS QA test(1)</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-15">Geometric QA cor</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-16">Geometric QA sag</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-17">MR sim Cervical Spine (L) Optional Scans</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-18">MR sim Cervical Spine (L)</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-19">MR sim Cervical Spine (S) Optional Scans</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-20">MR sim Cervical Spine (S)</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-21">MR sim Female Pelvis Optional scans</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-22">MR sim Female Pelvis</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-23">MR sim Head Optional scans</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-24">MR sim Head</name>
+<type href="#ref-5"/>
+</item>
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

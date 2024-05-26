@@ -1,0 +1,43 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>8</_size>
+<_version>8</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[8]">
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-4">Head &#38; Neck (TSE) std$46 upper neck</name>
+<type id="ref-5">Philips.PmsMR.ExamCards.ECDatabase.ExamCardFile</type>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-6">Head &#38; Neck (TSE) std$46 lower neck</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-7">H&#38;N Radiomics volunteer protocol</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-8">H&#38;N Radiomics Remains</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-9">H&#38;N Radiomics volunteer protocol(2)</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-10">H&#38;N Radiomics</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-11">Head &#38; Neck (TSE) 2mm test EJ klinisk</name>
+<type href="#ref-5"/>
+</item>
+<item xsi:type="a3:Folder+IndexEntry" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Philips.PmsMR.ExamCards.ECDatabase/philips.pmsmr.examcards.ecdatabase_cs%2C%20Version%3D99.99.99.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D6f9ead8fa774e6d2">
+<name id="ref-12">HeadNeck Posterior Triangle mDIXON 1$465T</name>
+<type href="#ref-5"/>
+</item>
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
