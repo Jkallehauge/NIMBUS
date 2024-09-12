@@ -9,3 +9,10 @@ Examcard
     -  vendor
         - fieldstrength
             - Anatomical site
+
+
+Active members of the NIMBUS network are
+# Aalborg
+'Martin Skovmos' <martin.skovmos.nielsen@rn.dk>
+
+'Dennis Tideman Arp' <deta@rn.dk>
