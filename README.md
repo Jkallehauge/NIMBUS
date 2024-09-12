@@ -14,5 +14,30 @@ Examcard
 Active members of the NIMBUS network are
 # Aalborg
 'Martin Skovmos' <martin.skovmos.nielsen@rn.dk>
-
 'Dennis Tideman Arp' <deta@rn.dk>
+
+# Aarhus Kræft afdeling
+'Jeppe Strand Jensen' <jeppe.strand@auh.rm.dk>
+
+# DCPT
+'Jesper Folsted Kallehauge' <jespkall@rm.dk>
+
+# Vejle
+'Henrik Dahl Nissen' <henrik.dahl.nissen@rsyd.dk>
+
+# Odense
+'Faisal Mahmood' <Faisal.Mahmood@rsyd.dk>
+
+# Næstved
+'Graham Peter Freestone' <graf@regionsjaelland.dk>
+
+# Herlev
+'Jens Edmund' <jens.edmund@regionh.dk> 
+
+# Rigshospitalet
+'Rasmus Hvass Hansen' <rasmus.hvass.hansen.01@regionh.dk>
+'Rebecca Jean Tobin' <rebecca.jean.tobin@regionh.dk>
+
+
+
+
