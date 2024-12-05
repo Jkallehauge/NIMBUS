@@ -35,7 +35,6 @@ Active members of the NIMBUS network are
 'Jens Edmund' <jens.edmund@regionh.dk> 
 
 # Rigshospitalet
-'Rasmus Hvass Hansen' <rasmus.hvass.hansen.01@regionh.dk>
 'Rebecca Jean Tobin' <rebecca.jean.tobin@regionh.dk>
 
 
